@@ -6,7 +6,7 @@ export default function Student() {
     <>
     <Navbar/>
     <h1>Student Datails</h1>
-    {/* <button className="addbtn">Add New Student</button>
+    <button className="addbtn">Add New Student</button>
     <table border={"1px"}>
         <tr>
             <td>Name</td>
@@ -15,7 +15,7 @@ export default function Student() {
             <td>Batch</td>
             <td>Change</td>
         </tr>
-    </table> */}
+    </table>
     </>
   )
 }

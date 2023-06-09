@@ -2,10 +2,47 @@
 body{
   background-image:linear-gradient( rgb(191, 245, 245),rgb(238, 170, 170),rgb(184, 238, 238));
   background-attachment: fixed;
- }
+}
 
- table{
-  width: 900px;
+.table{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   background-color: white;
-  border: 1px solid black;
- }
+  margin: 20px;
+  text-align: center;
+}
+
+input{
+  width: 350px;
+  height: 40px;
+}
+
+.formInput{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.subBtn{
+  position: absolute;
+  top:350px;
+  right: 60px;
+  font-size: 18px;
+  font-weight: bold;
+  width: 180px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.cancelBtn{
+  background-color: darkgray;
+  position: absolute;
+  top:350px;
+  right: 280px;
+  font-size: 18px;
+  font-weight: bold;
+  width: 180px;
+  height: 40px;
+  border-radius: 20px;
+}

@@ -1,10 +1,10 @@
 import React from 'react'
-import Navbar from '../Navbar'
+import Nav from '../Nav'
 
 export default function Contact() {
   return (
     <>
-    <Navbar/>
+    <Nav/>
     <h1>Contact</h1>
     </>
   )

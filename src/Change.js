@@ -1,11 +1,11 @@
 import React from 'react';
 import { useContext } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
-import ContextData from './ContextData';
-import Navbar from './Navbar';
+import Data from './Data';
+import Nav from './Nav';
 
-function Edit() {
-    const DataContext  = useContext(ContextData);
+function Change() {
+    const DataContext  = useContext(Data);
     const nav= useNavigate();
     const loc = useLocation().state.data;
     const currentData={
@@ -26,7 +26,7 @@ function Edit() {
     }
   return (
     <>
-    <Navbar/>
+    <Nav/>
     <br/>
     <br/>
     <br/>
@@ -47,4 +47,4 @@ function Edit() {
   )
 }
 
-export default Edit
+export default Change 

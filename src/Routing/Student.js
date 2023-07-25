@@ -1,16 +1,16 @@
 import React, { useContext } from "react";
 import { useNavigate, Link } from "react-router-dom";
-import ContextData from "../ContextData";
-import Navbar from "../Navbar";
+import Data from "../Data";
+import Nav from "../Nav";
 import "../App.css";
 
 const Student = () => {
-    const DataContext = useContext(ContextData);
+    const DataContext = useContext(Data);
     const nav = useNavigate();
 
     return(
         <>
-        <Navbar/>
+        <Nav/>
         <h1>Student Datails</h1>
         <button className="addbtn" onClick={()=>{nav('/addnew')}}>Add New Student</button>
         <br/>

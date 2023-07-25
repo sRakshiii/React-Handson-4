@@ -1,10 +1,10 @@
 import React, { useContext } from 'react'
 import { useNavigate } from 'react-router-dom';
-import ContextData from './ContextData';
-import Navbar from './Navbar';
+import Data from './Data';
+import Nav from './Nav';
 
-function AddNew() {
-    const DataContext  = useContext(ContextData);
+function Add() {
+    const DataContext  = useContext(Data);
     const nav= useNavigate();
     const  newObj = {
         name:"",
@@ -21,7 +21,7 @@ function AddNew() {
     }
   return (
     <>
-    <Navbar/>
+    <Nav/>
     <br/>
     <br/>
     <br/>
@@ -41,4 +41,4 @@ function AddNew() {
   )
 }
 
-export default AddNew;
+export default Add;
